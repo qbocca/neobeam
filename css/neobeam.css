@@ -26,10 +26,10 @@
     /* -- Colors -- */
 /* Primary, and variations */
 --primary: #BA0C2F; /* Updated primary color */
---saturation-multiplier: 1;
---desaturation-multiplier: 1;
---brightness-multiplier: 1;
---darkness-multiplier: 2;
+--saturation-multiplier: .5;
+--desaturation-multiplier: .5;
+--brightness-multiplier: .5;
+--darkness-multiplier: 20;
 --color-shift-degrees: 30;
     
     /* Font configuration */
