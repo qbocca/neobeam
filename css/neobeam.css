@@ -21,7 +21,7 @@
 /* Defaults */
 /************/
 :root {
-    --build-multiplier: 1; /* Might need to be set to 1 in some cases to fix color issues */
+    --build-multiplier: 100; /* Might need to be set to 1 in some cases to fix color issues */
     
     /* -- Colors -- */
 /* Primary, and variations */
