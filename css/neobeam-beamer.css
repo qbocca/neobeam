@@ -12,13 +12,45 @@
 @import "neobeam";
 
 :root {
+    --build-multiplier: 100; /* Might need to be set to 1 in some cases to fix color issues */
+    
     /* -- Colors -- */
-/* Primary, and variations */
---primary: #BA0C2F; /* Keep this as your primary color */
---saturation-multiplier: 1; /* Keep as is or adjust slightly (e.g., 0.9) */
---desaturation-multiplier: 0.8; /* Lower this to reduce desaturation */
---brightness-multiplier: 1; /* Keep as is or adjust slightly (e.g., 1.1) */
---darkness-multiplier: 1.5; /* Lower this to reduce darkness */
---color-shift-degrees: 0; /* Set to 0 to avoid shifting the color */
+    /* Primary, and variations */
+    --primary:         #BA0C2F; /* Change this to your desired primary color */
+    --saturation-multiplier:   1;
+    --desaturation-multiplier: 1;
+    --brightness-multiplier:   1;
+    --darkness-multiplier:     2;
+    --color-shift-degrees:    30;
 
+    /* Set the background color to white */
+    --background-color: white; /* Explicitly set background color to white */
+
+    /* Font configuration */
+    --default-font: "Roboto";
+    --monospace-font: "Roboto Mono";
+    --math-font: "Noto Sans Math";
+
+    --font-size: 28px;
+
+    /* Other variables remain unchanged */
 }
+
+/* Sections */
+section {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    
+    background: var(--background-color); /* This will now be white */
+
+    padding: var(--margin);
+}
+
+/* Headers and footers */
+section header, footer {
+    background-color: var(--primary); /* This will use the new primary color */
+    color: var(--text-color-negative);
+}
+
