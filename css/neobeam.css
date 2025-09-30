@@ -1,7 +1,7 @@
 /*!
  * Neobeam - A modern take on LaTeX beamer | Default
  *
- * @theme neobeam
+ * @theme neobeam-qp
  * @author Embracket / mikael-ros
  *
  * @auto-scaling true
@@ -25,7 +25,7 @@
     
     /* -- Colors -- */
     /* Primary, and variations */
-    --primary:         #4d85d1;
+    --primary:         #BA0C2F;
     --saturation-multiplier:   1;
     --desaturation-multiplier: 1;
     --brightness-multiplier:   1;
