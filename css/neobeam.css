@@ -1,7 +1,7 @@
 /*!
  * Neobeam - A modern take on LaTeX beamer | Default
  *
- * @theme neobeam-qp
+ * @theme neobeam
  * @author Embracket / mikael-ros
  *
  * @auto-scaling true
@@ -24,13 +24,13 @@
     --build-multiplier: 100; /* Might need to be set to 1 in some cases to fix color issues */
     
     /* -- Colors -- */
-/* Primary, and variations */
---primary: #BA0C2F; /* Updated primary color */
---saturation-multiplier: .5;
---desaturation-multiplier: .5;
---brightness-multiplier: .5;
---darkness-multiplier: 20;
---color-shift-degrees: 30;
+    /* Primary, and variations */
+    --primary:         #4d85d1;
+    --saturation-multiplier:   1;
+    --desaturation-multiplier: 1;
+    --brightness-multiplier:   1;
+    --darkness-multiplier:     2;
+    --color-shift-degrees:    30;
     
     /* Font configuration */
     --default-font: "Roboto";
