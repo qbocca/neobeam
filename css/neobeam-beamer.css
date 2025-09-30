@@ -50,7 +50,20 @@ section {
 
 /* Headers and footers */
 section header, footer {
-    background-color: var(--primary); /* This will use the new primary color */
-    color: var(--text-color-negative);
+    background-color: var(--primary); /* Primary color for background */
+    color: white; /* Change text color to white */
 }
+
+/* Title bubble */
+section.title h1 {
+    width: fit-content;
+    max-width: 80%;
+
+    padding: var(--text-padding) calc(2*var(--text-padding));
+
+    background-color: var(--primary); /* Keep the background color */
+    color: white; /* Change text color to white */
+    border-radius: var(--border-radius-default);
+}
+
 
