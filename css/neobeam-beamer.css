@@ -24,7 +24,7 @@
     --color-shift-degrees:    30;
 
     /* Set the background color to white */
-    --background-color: white; /* Explicitly set background color to white */
+    --background-color: ##FFFFFF; /* Explicitly set background color to white */
 
     /* Font configuration */
     --default-font: "Roboto";
