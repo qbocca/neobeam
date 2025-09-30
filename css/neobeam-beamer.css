@@ -13,11 +13,15 @@
 
 :root {
     /* -- Colors -- */
-    /* Primary, and variations */
-    --primary:          #3333b2;
-    --saturation-multiplier: .6;
-    --desaturation-multiplier: .25;
-    --brightness-multiplier: 1.4;
-    --darkness-multiplier: 1;
-    --color-shift-degrees: 120;
+/* Primary, and variations */
+--primary: #BA0C2F; /* Updated primary color */
+--saturation-multiplier: 1;
+--desaturation-multiplier: 1;
+--brightness-multiplier: 1;
+--darkness-multiplier: 2;
+--color-shift-degrees: 30;
+
+/* Background color */
+--background: #FFFFFF; /* Ensure the background remains white */
+
 }
