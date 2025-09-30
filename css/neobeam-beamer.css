@@ -14,14 +14,11 @@
 :root {
     /* -- Colors -- */
 /* Primary, and variations */
---primary: #BA0C2F; /* Updated primary color */
---saturation-multiplier: 1;
---desaturation-multiplier: 1;
---brightness-multiplier: 1;
---darkness-multiplier: 2;
---color-shift-degrees: 30;
-
-/* Background color */
---background: #FFFFFF; /* Ensure the background remains white */
+--primary: #BA0C2F; /* Keep this as your primary color */
+--saturation-multiplier: 1; /* Keep as is or adjust slightly (e.g., 0.9) */
+--desaturation-multiplier: 0.8; /* Lower this to reduce desaturation */
+--brightness-multiplier: 1; /* Keep as is or adjust slightly (e.g., 1.1) */
+--darkness-multiplier: 1.5; /* Lower this to reduce darkness */
+--color-shift-degrees: 0; /* Set to 0 to avoid shifting the color */
 
 }
