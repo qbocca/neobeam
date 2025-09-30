@@ -21,16 +21,16 @@
 /* Defaults */
 /************/
 :root {
-    --build-multiplier: 100; /* Might need to be set to 1 in some cases to fix color issues */
+    --build-multiplier: 1; /* Might need to be set to 1 in some cases to fix color issues */
     
     /* -- Colors -- */
-    /* Primary, and variations */
-     --primary:          #608534;
-    --saturation-multiplier: .5;
-    --desaturation-multiplier: 1.25;
-    --brightness-multiplier: 1.12;
-    --darkness-multiplier: 1.1;
-    --color-shift-degrees: 120;
+/* Primary, and variations */
+--primary: #BA0C2F; /* Updated primary color */
+--saturation-multiplier: 1;
+--desaturation-multiplier: 1;
+--brightness-multiplier: 1;
+--darkness-multiplier: 2;
+--color-shift-degrees: 30;
     
     /* Font configuration */
     --default-font: "Roboto";
